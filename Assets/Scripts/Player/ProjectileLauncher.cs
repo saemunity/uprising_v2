@@ -9,7 +9,7 @@ public class ProjectileLauncher : MonoBehaviour
 
     public void FireProjectile()
     {
-        GameObject projectile = Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        GameObject projectile = Instantiate(projectilePrefab, launchPoint.position, projectilePrefab.transform.rotation);
 
         Vector3 origScale = projectile.transform.localScale;
         
