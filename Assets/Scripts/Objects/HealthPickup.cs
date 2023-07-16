@@ -8,11 +8,11 @@ public class HealthPickup : MonoBehaviour
 
     public Vector3 spinRotationSpeed = new Vector3(0, 180, 0);
 
-    // AudioSource pickupSource;
+    AudioSource pickupSource;
 
     private void Awake()
     {
-        // pickupSource = GetComponent<AudioSource>();
+        pickupSource = GetComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -27,12 +27,12 @@ public class HealthPickup : MonoBehaviour
             bool wasHealed = damageable.Heal(healthRestore);
             if (wasHealed)
             {
-                // if (pickupSource)
-                //     AudioSource.PlayClipAtPoint(
-                //         pickupSource.clip,
-                //         gameObject.transform.position,
-                //         pickupSource.volume
-                //     );
+                if (pickupSource)
+                    AudioSource.PlayClipAtPoint(
+                        pickupSource.clip,
+                        gameObject.transform.position,
+                        pickupSource.volume
+                    );
 
                 Destroy(gameObject);
             }

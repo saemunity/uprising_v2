@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UI_Banners&Headers_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 479
+        width: 387
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e03ff77c977cf4799d504b8c5894e9
+      internalID: -353675587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 443
+        width: 390
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc51f7092b7d4a2449d3ade73bc5806c
+      internalID: 513648188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 394
+        width: 355
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c804f00c72871e846b94128e87512878
+      internalID: 1460163021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 348
+        width: 345
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e61ef189a53ba4b89552ebc39c2285
+      internalID: -1094086431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 273
+        width: 317
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7c46f22b5bc1042b926b1fa8a8f121
+      internalID: 1843046300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 206
+        width: 362
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17eb238faf3fbb418313c551b6e9244
+      internalID: -95936872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 151
+        width: 296
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b38535c2eae8774c92580a96226d6a4
+      internalID: 1853335344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 103
+        width: 307
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446aad28e3c64114db8561de0500b182
+      internalID: -1498130013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 53
+        width: 289
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f487f6db304af247870380c41b20f7c
+      internalID: -328132134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Banners&Headers_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 289
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3638218fe7f5a7744a320a0074bb96ce
+      internalID: 689585482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +348,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_Banners&Headers_0: -353675587
+      UI_Banners&Headers_1: 513648188
+      UI_Banners&Headers_10: -328132134
+      UI_Banners&Headers_11: 689585482
+      UI_Banners&Headers_2: 1460163021
+      UI_Banners&Headers_3: -1094086431
+      UI_Banners&Headers_4: 1843046300
+      UI_Banners&Headers_5: -95936872
+      UI_Banners&Headers_6: 1853335344
+      UI_Banners&Headers_7: 180956339
+      UI_Banners&Headers_8: -1498130013
+      UI_Banners&Headers_9: -1625393627
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
