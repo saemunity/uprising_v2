@@ -218,6 +218,7 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "FallDetector")
         {
+            damageable.Hit(10, Vector2.zero);
             transform.position = respawnPoint;
         }
     }

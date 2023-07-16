@@ -10,7 +10,7 @@ public class UiManager : MonoBehaviour
 {
      public GameObject damageTextPrefab;
     public GameObject healthTextPrefab;
-    // public GameObject pauseMenu;
+    public GameObject pauseMenu;
 
     public Canvas gameCanvas;
 
@@ -63,24 +63,24 @@ public class UiManager : MonoBehaviour
         tmpText.text = healthRestored.ToString();
     }
 
-    // public void OnExit(InputAction.CallbackContext context)
-    // {
-    //     if (context.started)
-    //     {
-    //         pauseMenu.SetActive(true);
-    //         Time.timeScale = 0f;
-    //     }
-    // }
+    public void OnExit(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0f;
+        }
+    }
 
-    // public void Resume()
-    // {
-    //     pauseMenu.SetActive(false);
-    //     Time.timeScale = 1f;
-    // }
+    public void Resume()
+    {
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+    }
 
-    // public void Home(string nameScene)
-    // {
-    //     SceneManager.LoadScene(nameScene);
-    //     Time.timeScale = 1f;
-    // }
+    public void Home(string nameScene)
+    {
+        SceneManager.LoadScene(nameScene);
+        Time.timeScale = 1f;
+    }
 }
