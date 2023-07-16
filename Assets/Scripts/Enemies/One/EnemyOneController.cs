@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
-public class EnemyTwoController : MonoBehaviour
+public class EnemyOneController : MonoBehaviour
 {
-    // Enemy walk acceleration towards max speed
+ // Enemy walk acceleration towards max speed
     // public float walkAcceleration = 3f;
     // public float maxSpeed = 3f;
 
@@ -118,7 +118,7 @@ public class EnemyTwoController : MonoBehaviour
                 //     ),
                 //     rb.velocity.y
                 // );
-                rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+                rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);    
             }
             else
             {
