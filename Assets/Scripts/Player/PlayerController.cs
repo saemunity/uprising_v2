@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update() {
-        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);  
+        // fallDetector.transform.position = new Vector2(fallDetector.transform.position.x, fallDetector.transform.position.y);  
     }
 
     /// <summary>
