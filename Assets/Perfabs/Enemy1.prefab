@@ -210,8 +210,8 @@ MonoBehaviour:
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
-  _maxHealth: 100
-  _health: 100
+  _maxHealth: 80
+  _health: 80
   _isAlive: 1
   isInvincible: 0
   invincibilityTime: 0.25
@@ -458,7 +458,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5762218, y: 0.043901682}
+  m_Offset: {x: -0.6138314, y: 0.043901682}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -469,7 +469,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.1524436, y: 1.7497054}
+  m_Size: {x: 2.0772245, y: 1.7497054}
   m_EdgeRadius: 0
 --- !u!114 &4275913218842538208
 MonoBehaviour:

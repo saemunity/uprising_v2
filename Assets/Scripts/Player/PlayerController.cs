@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 respawnPoint;
     public GameObject fallDetector;
+    public UiManager uiManager;
 
     TouchingDirections touchingDirections;
 
@@ -129,6 +130,10 @@ public class PlayerController : MonoBehaviour
 
     private void Update() {
         // fallDetector.transform.position = new Vector2(fallDetector.transform.position.x, fallDetector.transform.position.y);  
+        if (IsAlive == false)
+        {
+            uiManager.Restart();
+        }
     }
 
     /// <summary>

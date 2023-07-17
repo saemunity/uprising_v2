@@ -8,9 +8,10 @@ using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
-     public GameObject damageTextPrefab;
+    public GameObject damageTextPrefab;
     public GameObject healthTextPrefab;
     public GameObject pauseMenu;
+    public GameObject restartMenu;
 
     public Canvas gameCanvas;
 
@@ -82,5 +83,16 @@ public class UiManager : MonoBehaviour
     {
         SceneManager.LoadScene(nameScene);
         Time.timeScale = 1f;
+    }
+
+    public void Restart()
+    {
+        restartMenu.SetActive(true);
+        Time.timeScale = 1f;
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
